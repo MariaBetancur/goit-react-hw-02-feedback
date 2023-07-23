@@ -1,12 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { BottonList, FeedbackBotton } from './FeedbackOptions.styled';
 
-const FeedbackOptions = ({
-  options,
-  onleavefeedback,
-  BottonList,
-  FeedbackBotton,
-}) => (
+const FeedbackOptions = ({ options, onleavefeedback }) => (
   <div>
     <BottonList>
       {options.map((option, index) => {

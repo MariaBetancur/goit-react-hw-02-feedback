@@ -1,14 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { StatisticsList } from './Statistics.styled';
 
-const Statistics = ({
-  good,
-  neutral,
-  bad,
-  total,
-  positiveFeedback,
-  StatisticsList,
-}) => {
+const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => {
   return (
     <StatisticsList>
       <li>
